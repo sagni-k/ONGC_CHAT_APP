@@ -12,7 +12,7 @@ const userschema = new mongoose.Schema({
     },
     password:{
         type:String,
-        minlenght:6
+        minlength:6
     },
     gender:{
         type:String,
@@ -27,4 +27,4 @@ const userschema = new mongoose.Schema({
 
 const User = mongoose.model("User", userschema);
 
-export default user;
+export default User;
